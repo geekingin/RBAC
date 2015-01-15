@@ -47,7 +47,7 @@
             // listBox_RoleName
             // 
             this.listBox_RoleName.BackColor = System.Drawing.Color.Moccasin;
-            this.listBox_RoleName.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.listBox_RoleName.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox_RoleName.FormattingEnabled = true;
             this.listBox_RoleName.ItemHeight = 20;
             this.listBox_RoleName.Location = new System.Drawing.Point(3, 3);
@@ -58,7 +58,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(12, 2);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(68, 20);
@@ -67,10 +67,11 @@
             // 
             // Btn_Refresh
             // 
-            this.Btn_Refresh.BackColor = System.Drawing.Color.LightBlue;
+            this.Btn_Refresh.BackColor = System.Drawing.Color.Lime;
             this.Btn_Refresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Btn_Refresh.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Btn_Refresh.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Btn_Refresh.FlatAppearance.BorderSize = 0;
+            this.Btn_Refresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Refresh.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Btn_Refresh.Location = new System.Drawing.Point(353, 44);
             this.Btn_Refresh.Name = "Btn_Refresh";
             this.Btn_Refresh.Size = new System.Drawing.Size(118, 28);

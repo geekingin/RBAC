@@ -16,11 +16,9 @@ namespace RBAC
         public Login()
         {
             InitializeComponent();
-            
         }
         private void Login_Load(object sender, System.EventArgs e)
         {
-            
             if (File.Exists("dac.accdb") == false || SubjectRegister.IsUserNameUsed("admin") == false||  SubjectRegister.IsUserNameUsed("security_officer") == false)//若数据库文件不存在或则管理员账号不存在，则创建新的文件或者管理员帐号并退出
             {
                 if (File.Exists("dac.accdb") == false)
@@ -49,20 +47,15 @@ namespace RBAC
                     register.ShowDialog();
                     Refresh_UserInfo();//将数据库中用户信息添加到用户列表中
                 }   
-               
-
             }
             Refresh_UserInfo();//将数据库中用户信息添加到用户列表中
-
-
         }
-        //将新建的用户更新到用户列表中
+        //将数据库的用户更新到用户列表中
         private void Refresh_UserInfo()
         {
-            //以下代码用于将数据库中用户信息添加到用户列表中
+            //将数据库中用户信息添加到用户列表中
             OleDbConnection oleDB = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=dac.accdb");//连接数据库并打开
             oleDB.Open();
-
 
             OleDbCommand conn = new OleDbCommand();
             conn.Connection = oleDB;
@@ -87,7 +80,6 @@ namespace RBAC
         }
      
 
-     
         /// <summary>
         /// 创建新的信息数据库
         /// </summary>
@@ -139,8 +131,6 @@ namespace RBAC
             ExclusionRoleName.Name = "角色1名称";
             ADOX.Column ExclusionRoleName1 = new Column();//角色名称
             ExclusionRoleName1.Name = "角色2名称";
-
-
 
             table.Columns.Append(ExclusionRoleName);//将列添加到表中
             table.Columns.Append(ExclusionRoleName1);
@@ -233,7 +223,6 @@ namespace RBAC
         }
 
        
-
         //登录
         private void btn_enter_Click(object sender,  System.EventArgs e)
         {
@@ -292,7 +281,6 @@ namespace RBAC
                         s.ShowDialog();
                         break;
                     }
-
                 default:
                     {
                         CommonUser c = new CommonUser();
@@ -301,10 +289,7 @@ namespace RBAC
                         break;
                     }
             }
-        
-
             this.Visible = true;
-
         }
 
         private void btn_exit_Click(object sender, System.EventArgs e)
@@ -338,43 +323,20 @@ namespace RBAC
                     register.ShowDialog();
                     Refresh_UserInfo();//将数据库中用户信息添加到用户列表中
                     return;
-
                 }
-
-
-
             }
             else
             {
-
                 SubjectRegister register = new SubjectRegister();
                 register.Text = "设置普通用户账号及密码";
                 register.isAdmin = false;
                 register.ShowDialog();
                 Refresh_UserInfo();//将数据库中用户信息添加到用户列表中
-
-
             }
-
         }
 
         private void userCombox_SelectedIndexChanged(object sender, System.EventArgs e)
         {
-
         }
-
-      
-        
-
-       
-
-
-
-
-
-
-
-
-
     }
 }

@@ -575,6 +575,11 @@ namespace RBAC
             this.Table.SelectedIndex = 1;
         }
 
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
         
      

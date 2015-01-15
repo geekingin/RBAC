@@ -190,5 +190,10 @@ namespace RBAC
 
             }       //当选项卡选中项改变时，重新刷新该项中的信息
         }
+
+        private void View_RolesData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

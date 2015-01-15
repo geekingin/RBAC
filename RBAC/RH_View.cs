@@ -42,8 +42,6 @@ namespace RBAC
         {
             this.listBox_RoleName.Items.Clear();
           
-             
-
             //找到所有不在角色关系表中的角色名称添加到列表中
             LinkedList<string> single_Roles = Get_Single_Roles();
             if (single_Roles.Count == 0)
@@ -63,10 +61,22 @@ namespace RBAC
 
         }
 
+        /// <summary>
+        /// 开始作图按钮回调
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Btn_Refresh_Click(object sender, EventArgs e)
         {
+            start_drawing();
+        }
 
-           // Refresh_Rh_View();//刷新列表
+        /// <summary>
+        /// 绘图
+        /// </summary>
+        private void start_drawing()
+        {
+            // Refresh_Rh_View();//刷新列表
             Get_All_Realation();
 
             //找到所有处于最上级的角色
@@ -78,23 +88,23 @@ namespace RBAC
                 DrawLabel(startPoint, S.First.Value);//画第一个结点
 
                 //NumberOfHaveDraw++;
-
                 RoleX.AddLast(startPoint.X);//记录当前已经画了的角色的坐标
                 RoleY.AddLast(startPoint.Y);
 
-
                 Draw_Child_Role(S.First.Value, startPoint.X, startPoint.Y);
-
-
-
 
                 startPoint.X += (this.Size.Width) / n;
 
                 S.RemoveFirst();
             }
-         
-       
         }
+
+        /// <summary>
+        /// 画儿子结点
+        /// </summary>
+        /// <param name="FatherRoleName"></param>
+        /// <param name="X"></param>
+        /// <param name="Y"></param>
         private void Draw_Child_Role(string FatherRoleName, int X, int Y)
         {
             LinkedList<string> childName = Get_Direct_Child_Roles(FatherRoleName);
@@ -267,7 +277,6 @@ namespace RBAC
         }
         private void Get_All_Realation()
         {
-
             LinkedList<string> l = Get_All_Roles_Relation();
             while (l.Count != 0)
             {
@@ -456,7 +465,6 @@ namespace RBAC
         {
             LinkedList<string> LinkRole = new LinkedList<string>();
 
-
             OleDbConnection oleDB = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=dac.accdb");
             oleDB.Open();
             OleDbCommand cmd = new OleDbCommand();
@@ -491,10 +499,8 @@ namespace RBAC
         private void RH_View_Load(object sender, EventArgs e)
         {
             Refresh_Rh_View();
+            start_drawing();
         }
-
-      
- 
     } 
     class Roles
     {

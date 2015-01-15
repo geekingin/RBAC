@@ -42,22 +42,26 @@
             // 
             // btn_enter
             // 
+            this.btn_enter.BackColor = System.Drawing.Color.Lime;
             this.btn_enter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_enter.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.btn_enter.FlatAppearance.BorderSize = 0;
             this.btn_enter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_enter.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_enter.Location = new System.Drawing.Point(12, 146);
+            this.btn_enter.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_enter.Location = new System.Drawing.Point(306, 29);
             this.btn_enter.Name = "btn_enter";
             this.btn_enter.Size = new System.Drawing.Size(87, 28);
             this.btn_enter.TabIndex = 3;
             this.btn_enter.TabStop = false;
-            this.btn_enter.Text = "登  录(&Y)";
-            this.btn_enter.UseVisualStyleBackColor = true;
+            this.btn_enter.Text = "登录(&Y)";
+            this.btn_enter.UseVisualStyleBackColor = false;
             this.btn_enter.Click += new System.EventHandler(this.btn_enter_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Location = new System.Drawing.Point(26, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 20);
@@ -67,7 +71,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label3.Location = new System.Drawing.Point(26, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 20);
@@ -76,8 +81,8 @@
             // 
             // pwd
             // 
-            this.pwd.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pwd.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.pwd.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pwd.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pwd.Location = new System.Drawing.Point(73, 109);
             this.pwd.Multiline = true;
             this.pwd.Name = "pwd";
@@ -87,25 +92,27 @@
             // 
             // btn_exit
             // 
+            this.btn_exit.BackColor = System.Drawing.Color.Red;
             this.btn_exit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_exit.FlatAppearance.BorderSize = 0;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_exit.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_exit.Location = new System.Drawing.Point(127, 146);
+            this.btn_exit.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_exit.Location = new System.Drawing.Point(306, 67);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(87, 28);
             this.btn_exit.TabIndex = 4;
             this.btn_exit.TabStop = false;
-            this.btn_exit.Text = "退 出 (&E)";
-            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Text = "退出(&E)";
+            this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // userCombox
             // 
             this.userCombox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
             this.userCombox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.userCombox.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.userCombox.BackColor = System.Drawing.Color.White;
             this.userCombox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.userCombox.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userCombox.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.userCombox.FormattingEnabled = true;
             this.userCombox.Location = new System.Drawing.Point(73, 27);
             this.userCombox.MaxLength = 100;
@@ -118,7 +125,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(26, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 20);
@@ -127,8 +135,8 @@
             // 
             // roleText
             // 
-            this.roleText.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.roleText.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.roleText.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.roleText.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.roleText.Location = new System.Drawing.Point(73, 67);
             this.roleText.Multiline = true;
             this.roleText.Name = "roleText";
@@ -138,16 +146,18 @@
             // 
             // btn_register
             // 
+            this.btn_register.BackColor = System.Drawing.Color.Aqua;
             this.btn_register.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_register.FlatAppearance.BorderSize = 0;
             this.btn_register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_register.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_register.Location = new System.Drawing.Point(232, 146);
+            this.btn_register.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_register.Location = new System.Drawing.Point(306, 105);
             this.btn_register.Name = "btn_register";
-            this.btn_register.Size = new System.Drawing.Size(75, 28);
+            this.btn_register.Size = new System.Drawing.Size(87, 28);
             this.btn_register.TabIndex = 9;
             this.btn_register.TabStop = false;
             this.btn_register.Text = "注册";
-            this.btn_register.UseVisualStyleBackColor = true;
+            this.btn_register.UseVisualStyleBackColor = false;
             this.btn_register.Click += new System.EventHandler(this.btn_register_Click_1);
             // 
             // Login
@@ -155,9 +165,9 @@
             this.AcceptButton = this.btn_enter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.CancelButton = this.btn_exit;
-            this.ClientSize = new System.Drawing.Size(319, 184);
+            this.ClientSize = new System.Drawing.Size(425, 159);
             this.Controls.Add(this.btn_register);
             this.Controls.Add(this.roleText);
             this.Controls.Add(this.label1);
@@ -172,6 +182,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登录账号";
             this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

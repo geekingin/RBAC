@@ -64,3 +64,20 @@ E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本
 E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.exe
 E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.pdb
 E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\bin\Debug\RBAC.exe.config
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\Interop.ADODB.dll
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\Interop.ADOX.dll
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.csproj.ResolveComReference.cache
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.exe
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.pdb
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\bin\Debug\RBAC.exe
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\bin\Debug\RBAC.pdb
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.Admin.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.CommonUser.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.Login.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.RH_View.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.Security_Officer.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
+G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache
