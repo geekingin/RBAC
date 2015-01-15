@@ -1,0 +1,66 @@
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\bin\Debug\RBAC.exe.config
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\bin\Debug\RBAC.exe
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\bin\Debug\RBAC.pdb
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\Interop.ADODB.dll
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\Interop.ADOX.dll
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.csproj.ResolveComReference.cache
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.CommonUser.resources
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.Login.resources
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.Admin.resources
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.exe
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.pdb
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.Security_Officer.resources
+E:\访问控制\访问控制技术课程设计\RBAC\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\bin\Debug\RBAC.exe.config
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\Interop.ADODB.dll
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\Interop.ADOX.dll
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.csproj.ResolveComReference.cache
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.exe
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.pdb
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\bin\Debug\RBAC.exe
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\bin\Debug\RBAC.pdb
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.Admin.resources
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.CommonUser.resources
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.Login.resources
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.Security_Officer.resources
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
+C:\Users\MOYAN\Desktop\访问控制\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\Interop.ADODB.dll
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\Interop.ADOX.dll
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.csproj.ResolveComReference.cache
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.Admin.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.CommonUser.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.Login.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.RH_View.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.Security_Officer.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache
+C:\Users\MOYAN\Desktop\RBAC\RBAC\bin\Debug\RBAC.exe.config
+C:\Users\MOYAN\Desktop\RBAC\RBAC\bin\Debug\RBAC.exe
+C:\Users\MOYAN\Desktop\RBAC\RBAC\bin\Debug\RBAC.pdb
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.exe
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.pdb
+C:\Users\MOYAN\Desktop\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\bin\Debug\RBAC.exe.config
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\bin\Debug\RBAC.exe
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\bin\Debug\RBAC.pdb
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\Interop.ADODB.dll
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\Interop.ADOX.dll
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.csproj.ResolveComReference.cache
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.Admin.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.CommonUser.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.Login.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.RH_View.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.Security_Officer.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.exe
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.pdb
+E:\访问控制\访问控制技术课程设计\访问控制最终版本 - 副本\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
