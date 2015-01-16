@@ -72,12 +72,12 @@
             this.Btn_Refresh.FlatAppearance.BorderSize = 0;
             this.Btn_Refresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Refresh.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Btn_Refresh.Location = new System.Drawing.Point(353, 44);
+            this.Btn_Refresh.Location = new System.Drawing.Point(330, 2);
             this.Btn_Refresh.Name = "Btn_Refresh";
             this.Btn_Refresh.Size = new System.Drawing.Size(118, 28);
             this.Btn_Refresh.TabIndex = 34;
             this.Btn_Refresh.TabStop = false;
-            this.Btn_Refresh.Text = "显示角色层次图";
+            this.Btn_Refresh.Text = "角色层次图";
             this.Btn_Refresh.UseVisualStyleBackColor = false;
             this.Btn_Refresh.Click += new System.EventHandler(this.Btn_Refresh_Click);
             // 

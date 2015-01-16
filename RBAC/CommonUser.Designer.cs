@@ -40,14 +40,6 @@
             this.重新登录NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.注册ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.视图ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.查看授权表SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.添加授权ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.回收授权DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.新建客体NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.删除客体DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.DeleteSubjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.RegisterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -60,12 +52,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.View_RolesData = new System.Windows.Forms.DataGridView();
-            this.Table = new System.Windows.Forms.TabControl();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Table = new System.Windows.Forms.TabControl();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -80,7 +72,6 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.文件FToolStripMenuItem,
-            this.视图ToolStripMenuItem,
             this.帮助HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -122,62 +113,6 @@
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
             this.退出ToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.退出ToolStripMenuItem.Text = "退出(&E)";
-            // 
-            // 视图ToolStripMenuItem
-            // 
-            this.视图ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.查看授权表SToolStripMenuItem,
-            this.添加授权ToolStripMenuItem,
-            this.回收授权DToolStripMenuItem,
-            this.新建客体NToolStripMenuItem,
-            this.删除客体DToolStripMenuItem,
-            this.DeleteSubjectToolStripMenuItem,
-            this.RegisterToolStripMenuItem});
-            this.视图ToolStripMenuItem.Name = "视图ToolStripMenuItem";
-            this.视图ToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.视图ToolStripMenuItem.Text = "功能(V)";
-            // 
-            // 查看授权表SToolStripMenuItem
-            // 
-            this.查看授权表SToolStripMenuItem.Name = "查看授权表SToolStripMenuItem";
-            this.查看授权表SToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.查看授权表SToolStripMenuItem.Text = "查看授权表(&S)";
-            // 
-            // 添加授权ToolStripMenuItem
-            // 
-            this.添加授权ToolStripMenuItem.Name = "添加授权ToolStripMenuItem";
-            this.添加授权ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.添加授权ToolStripMenuItem.Text = "添加授权(&A)";
-            // 
-            // 回收授权DToolStripMenuItem
-            // 
-            this.回收授权DToolStripMenuItem.Name = "回收授权DToolStripMenuItem";
-            this.回收授权DToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.回收授权DToolStripMenuItem.Text = "回收授权(&D)";
-            // 
-            // 新建客体NToolStripMenuItem
-            // 
-            this.新建客体NToolStripMenuItem.Name = "新建客体NToolStripMenuItem";
-            this.新建客体NToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.新建客体NToolStripMenuItem.Text = "新建客体(&N)";
-            // 
-            // 删除客体DToolStripMenuItem
-            // 
-            this.删除客体DToolStripMenuItem.Name = "删除客体DToolStripMenuItem";
-            this.删除客体DToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.删除客体DToolStripMenuItem.Text = "删除客体(&E)";
-            // 
-            // DeleteSubjectToolStripMenuItem
-            // 
-            this.DeleteSubjectToolStripMenuItem.Name = "DeleteSubjectToolStripMenuItem";
-            this.DeleteSubjectToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.DeleteSubjectToolStripMenuItem.Text = "删除主体(&F)";
-            // 
-            // RegisterToolStripMenuItem
-            // 
-            this.RegisterToolStripMenuItem.Name = "RegisterToolStripMenuItem";
-            this.RegisterToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.RegisterToolStripMenuItem.Text = "注册管理(&R)";
             // 
             // 帮助HToolStripMenuItem
             // 
@@ -226,7 +161,7 @@
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(621, 323);
             this.tabPage2.TabIndex = 2;
             this.tabPage2.Text = "权限";
@@ -266,7 +201,7 @@
             this.tabPage1.Controls.Add(this.View_RolesData);
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(621, 323);
             this.tabPage1.TabIndex = 1;
             this.tabPage1.Text = "角色表";
@@ -307,19 +242,6 @@
             this.View_RolesData.RowTemplate.Height = 23;
             this.View_RolesData.Size = new System.Drawing.Size(615, 317);
             this.View_RolesData.TabIndex = 2;
-            this.View_RolesData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.View_RolesData_CellContentClick);
-            // 
-            // Table
-            // 
-            this.Table.Controls.Add(this.tabPage1);
-            this.Table.Controls.Add(this.tabPage2);
-            this.Table.Font = new System.Drawing.Font("SimSun", 12F);
-            this.Table.Location = new System.Drawing.Point(0, 31);
-            this.Table.Name = "Table";
-            this.Table.SelectedIndex = 0;
-            this.Table.Size = new System.Drawing.Size(629, 353);
-            this.Table.TabIndex = 3;
-            this.Table.Selected += new System.Windows.Forms.TabControlEventHandler(this.Table_Selected);
             // 
             // Column8
             // 
@@ -363,6 +285,18 @@
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
             this.dataGridViewTextBoxColumn7.Width = 150;
             // 
+            // Table
+            // 
+            this.Table.Controls.Add(this.tabPage1);
+            this.Table.Controls.Add(this.tabPage2);
+            this.Table.Font = new System.Drawing.Font("SimSun", 12F);
+            this.Table.Location = new System.Drawing.Point(0, 31);
+            this.Table.Name = "Table";
+            this.Table.SelectedIndex = 0;
+            this.Table.Size = new System.Drawing.Size(629, 353);
+            this.Table.TabIndex = 3;
+            this.Table.Selected += new System.Windows.Forms.TabControlEventHandler(this.Table_Selected);
+            // 
             // CommonUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -397,7 +331,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 文件FToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 视图ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 新建ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 帮助HToolStripMenuItem;
@@ -406,15 +339,8 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel timeLabel;
         private System.Windows.Forms.Timer timer;
-        private System.Windows.Forms.ToolStripMenuItem 查看授权表SToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 添加授权ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 回收授权DToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 新建客体NToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 删除客体DToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 重新登录NToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 注册ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem DeleteSubjectToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem RegisterToolStripMenuItem;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabControl Table;

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.文件FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.重新登录NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,12 +77,12 @@
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.View_UsersData = new System.Windows.Forms.DataGridView();
-            this.Table = new System.Windows.Forms.TabControl();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Table = new System.Windows.Forms.TabControl();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -122,21 +122,21 @@
             // 重新登录NToolStripMenuItem
             // 
             this.重新登录NToolStripMenuItem.Name = "重新登录NToolStripMenuItem";
-            this.重新登录NToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.重新登录NToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.重新登录NToolStripMenuItem.Text = "重新登录(&R)";
             this.重新登录NToolStripMenuItem.Click += new System.EventHandler(this.重新登录NToolStripMenuItem_Click);
             // 
             // 注册ToolStripMenuItem
             // 
             this.注册ToolStripMenuItem.Name = "注册ToolStripMenuItem";
-            this.注册ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.注册ToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.注册ToolStripMenuItem.Text = "注册账号(&S)";
             this.注册ToolStripMenuItem.Click += new System.EventHandler(this.注册ToolStripMenuItem_Click);
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.退出ToolStripMenuItem.Text = "退出(&E)";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
@@ -154,28 +154,28 @@
             // 用户表UToolStripMenuItem
             // 
             this.用户表UToolStripMenuItem.Name = "用户表UToolStripMenuItem";
-            this.用户表UToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.用户表UToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.用户表UToolStripMenuItem.Text = "用户表(&U)";
             this.用户表UToolStripMenuItem.Click += new System.EventHandler(this.用户表UToolStripMenuItem_Click);
             // 
             // 查询用户RToolStripMenuItem
             // 
             this.查询用户RToolStripMenuItem.Name = "查询用户RToolStripMenuItem";
-            this.查询用户RToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.查询用户RToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.查询用户RToolStripMenuItem.Text = "查询用户(&R)";
             this.查询用户RToolStripMenuItem.Click += new System.EventHandler(this.查询用户RToolStripMenuItem_Click);
             // 
             // 注册管理ToolStripMenuItem
             // 
             this.注册管理ToolStripMenuItem.Name = "注册管理ToolStripMenuItem";
-            this.注册管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.注册管理ToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.注册管理ToolStripMenuItem.Text = "注册管理(&M)";
             this.注册管理ToolStripMenuItem.Click += new System.EventHandler(this.注册管理ToolStripMenuItem_Click);
             // 
             // 删除用户DToolStripMenuItem
             // 
             this.删除用户DToolStripMenuItem.Name = "删除用户DToolStripMenuItem";
-            this.删除用户DToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.删除用户DToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.删除用户DToolStripMenuItem.Text = "删除用户(&D)";
             this.删除用户DToolStripMenuItem.Click += new System.EventHandler(this.删除用户DToolStripMenuItem_Click);
             // 
@@ -247,9 +247,9 @@
             this.Btn_Delete_User.FlatAppearance.BorderSize = 0;
             this.Btn_Delete_User.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Delete_User.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Btn_Delete_User.Location = new System.Drawing.Point(413, 248);
+            this.Btn_Delete_User.Location = new System.Drawing.Point(487, 11);
             this.Btn_Delete_User.Name = "Btn_Delete_User";
-            this.Btn_Delete_User.Size = new System.Drawing.Size(111, 28);
+            this.Btn_Delete_User.Size = new System.Drawing.Size(96, 28);
             this.Btn_Delete_User.TabIndex = 55;
             this.Btn_Delete_User.TabStop = false;
             this.Btn_Delete_User.Text = "删除该用户";
@@ -261,7 +261,7 @@
             this.Label_Time.AutoSize = true;
             this.Label_Time.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Label_Time.ForeColor = System.Drawing.Color.Black;
-            this.Label_Time.Location = new System.Drawing.Point(376, 12);
+            this.Label_Time.Location = new System.Drawing.Point(376, 15);
             this.Label_Time.Name = "Label_Time";
             this.Label_Time.Size = new System.Drawing.Size(37, 20);
             this.Label_Time.TabIndex = 54;
@@ -271,7 +271,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(302, 12);
+            this.label6.Location = new System.Drawing.Point(302, 15);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 20);
             this.label6.TabIndex = 53;
@@ -281,9 +281,9 @@
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel21.Controls.Add(this.ListBox_Permissions);
-            this.panel21.Location = new System.Drawing.Point(91, 203);
+            this.panel21.Location = new System.Drawing.Point(213, 79);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(210, 114);
+            this.panel21.Size = new System.Drawing.Size(192, 241);
             this.panel21.TabIndex = 50;
             // 
             // ListBox_Permissions
@@ -294,14 +294,14 @@
             this.ListBox_Permissions.ItemHeight = 20;
             this.ListBox_Permissions.Location = new System.Drawing.Point(3, 2);
             this.ListBox_Permissions.Name = "ListBox_Permissions";
-            this.ListBox_Permissions.Size = new System.Drawing.Size(200, 104);
+            this.ListBox_Permissions.Size = new System.Drawing.Size(182, 224);
             this.ListBox_Permissions.TabIndex = 48;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label28.Location = new System.Drawing.Point(12, 193);
+            this.label28.Location = new System.Drawing.Point(214, 53);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(82, 20);
             this.label28.TabIndex = 52;
@@ -311,9 +311,9 @@
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel17.Controls.Add(this.ListBox_AssignRole);
-            this.panel17.Location = new System.Drawing.Point(91, 59);
+            this.panel17.Location = new System.Drawing.Point(8, 76);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(210, 114);
+            this.panel17.Size = new System.Drawing.Size(192, 241);
             this.panel17.TabIndex = 51;
             // 
             // ListBox_AssignRole
@@ -324,16 +324,16 @@
             this.ListBox_AssignRole.ItemHeight = 20;
             this.ListBox_AssignRole.Location = new System.Drawing.Point(3, 3);
             this.ListBox_AssignRole.Name = "ListBox_AssignRole";
-            this.ListBox_AssignRole.Size = new System.Drawing.Size(200, 104);
+            this.ListBox_AssignRole.Size = new System.Drawing.Size(182, 224);
             this.ListBox_AssignRole.TabIndex = 49;
             // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel15.Controls.Add(this.ListBox_AuthorizeRole);
-            this.panel15.Location = new System.Drawing.Point(390, 59);
+            this.panel15.Location = new System.Drawing.Point(418, 79);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(210, 114);
+            this.panel15.Size = new System.Drawing.Size(192, 241);
             this.panel15.TabIndex = 49;
             // 
             // ListBox_AuthorizeRole
@@ -344,7 +344,7 @@
             this.ListBox_AuthorizeRole.ItemHeight = 20;
             this.ListBox_AuthorizeRole.Location = new System.Drawing.Point(3, 2);
             this.ListBox_AuthorizeRole.Name = "ListBox_AuthorizeRole";
-            this.ListBox_AuthorizeRole.Size = new System.Drawing.Size(200, 104);
+            this.ListBox_AuthorizeRole.Size = new System.Drawing.Size(182, 224);
             this.ListBox_AuthorizeRole.TabIndex = 48;
             // 
             // ComboBox_UserName
@@ -355,7 +355,7 @@
             this.ComboBox_UserName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBox_UserName.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ComboBox_UserName.FormattingEnabled = true;
-            this.ComboBox_UserName.Location = new System.Drawing.Point(91, 11);
+            this.ComboBox_UserName.Location = new System.Drawing.Point(91, 14);
             this.ComboBox_UserName.MaxLength = 100;
             this.ComboBox_UserName.Name = "ComboBox_UserName";
             this.ComboBox_UserName.Size = new System.Drawing.Size(202, 22);
@@ -366,7 +366,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label23.Location = new System.Drawing.Point(12, 59);
+            this.label23.Location = new System.Drawing.Point(9, 53);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(82, 20);
             this.label23.TabIndex = 30;
@@ -377,7 +377,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label22.Location = new System.Drawing.Point(302, 59);
+            this.label22.Location = new System.Drawing.Point(419, 53);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(82, 20);
             this.label22.TabIndex = 29;
@@ -387,7 +387,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label21.Location = new System.Drawing.Point(17, 12);
+            this.label21.Location = new System.Drawing.Point(17, 15);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(65, 20);
             this.label21.TabIndex = 24;
@@ -504,8 +504,8 @@
             this.View_UsersData.AllowUserToAddRows = false;
             this.View_UsersData.AllowUserToDeleteRows = false;
             this.View_UsersData.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            this.View_UsersData.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.View_UsersData.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
             this.View_UsersData.BackgroundColor = System.Drawing.SystemColors.Window;
             this.View_UsersData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.View_UsersData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -514,14 +514,14 @@
             this.dataGridViewTextBoxColumn1,
             this.Column1,
             this.dataGridViewTextBoxColumn7});
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("SimSun", 12F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.View_UsersData.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("SimSun", 12F);
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.View_UsersData.DefaultCellStyle = dataGridViewCellStyle23;
             this.View_UsersData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.View_UsersData.Location = new System.Drawing.Point(3, 3);
             this.View_UsersData.MultiSelect = false;
@@ -529,11 +529,57 @@
             this.View_UsersData.ReadOnly = true;
             this.View_UsersData.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.View_UsersData.RowHeadersWidth = 4;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            this.View_UsersData.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            this.View_UsersData.RowsDefaultCellStyle = dataGridViewCellStyle24;
             this.View_UsersData.RowTemplate.Height = 23;
             this.View_UsersData.Size = new System.Drawing.Size(615, 317);
             this.View_UsersData.TabIndex = 1;
+            // 
+            // Column2
+            // 
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle18;
+            this.Column2.HeaderText = "用户名称";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column8
+            // 
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column8.DefaultCellStyle = dataGridViewCellStyle19;
+            this.Column8.HeaderText = "指派角色";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle20;
+            this.dataGridViewTextBoxColumn1.HeaderText = "授权角色";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 3;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // Column1
+            // 
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle21;
+            this.Column1.HeaderText = "具有的权限";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle22;
+            this.dataGridViewTextBoxColumn7.HeaderText = "注册时间";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 185;
             // 
             // Table
             // 
@@ -547,52 +593,6 @@
             this.Table.Size = new System.Drawing.Size(629, 353);
             this.Table.TabIndex = 3;
             this.Table.Selected += new System.Windows.Forms.TabControlEventHandler(this.Table_Selected);
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridViewTextBoxColumn7.HeaderText = "注册时间";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 185;
-            // 
-            // Column1
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.Column1.HeaderText = "具有的权限";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle4;
-            this.dataGridViewTextBoxColumn1.HeaderText = "授权角色";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 3;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // Column8
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column8.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Column8.HeaderText = "指派角色";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column2.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Column2.HeaderText = "用户名称";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
             // 
             // Admin
             // 

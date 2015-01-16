@@ -258,7 +258,7 @@ namespace RBAC
             oleDB.Close();
             if (isLogin == false)
             {
-                MessageBox.Show(this, "密码错误", "登录失败", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, "密码错误"+pwd.Text.GetHashCode().ToString(), "登录失败", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
