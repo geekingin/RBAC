@@ -196,14 +196,14 @@ namespace RBAC
                     return;
                 }
             }
-            if (pwd.Text.Length < 6)//密码长度过小
-            {
-
-                if (MessageBox.Show(this, "密码长度过小，是否重新设置密码", "提醒", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
-                {
-                    return;
-                }
-            }
+           // if (pwd.Text.Length < 6)//密码长度过小
+            //{
+//
+  //              if (MessageBox.Show(this, "密码长度过小，是否重新设置密码", "提醒", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+    //            {
+      //              return;
+        //        }
+          //  }
 
             //将注册信息插入到注册表中
             OleDbConnection oleDB = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=dac.accdb");

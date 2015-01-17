@@ -61,8 +61,6 @@ namespace RBAC
         /// </summary>
         private void Refresh_RoleTable()
         {
-
-
             this.View_RolesData.Rows.Clear();
 
             LinkedList<string> DirectRole = Security_Officer.Get_User_Direct_Roles(GetUserName);//获取用户拥有 的所有角色
@@ -161,6 +159,62 @@ namespace RBAC
             }
         
          }
+
+       
+        private void refreshActivateRoles()
+        {
+            this.checkedListBox_Roles.Items.Clear();
+            this.listBox_Activating_Permissions.Items.Clear();
+
+            LinkedList<string> DirectRole = Security_Officer.Get_User_Direct_Roles(GetUserName);//获取用户拥有 的所有角色
+            while (DirectRole.Count != 0)
+            {
+                DataGridViewRow r = new DataGridViewRow();
+                r.CreateCells(this.View_RolesData);
+                r.Cells[0].Value = DirectRole.First.Value;
+
+                LinkedList<string> DirectFatherRoles = Security_Officer.GetDirectFatherRoles(DirectRole.First.Value);
+                LinkedList<string> FatherRoles = Security_Officer.GetFatherRoles(DirectRole.First.Value);
+
+                LinkedList<string> DirectChildRoles = Security_Officer.GetDirectChildRoles(DirectRole.First.Value);
+                LinkedList<string> ChildRoles = Security_Officer.GetChildRoles(DirectRole.First.Value);
+
+                while (FatherRoles.Count != 0)
+                {
+                    if (DirectFatherRoles.Find(FatherRoles.First.Value) == null)
+                    {
+                        r.Cells[3].Value += FatherRoles.First.Value + " ";
+
+                    }
+                    FatherRoles.RemoveFirst();
+                }
+
+                while (ChildRoles.Count != 0)
+                {
+                    if (DirectChildRoles.Find(ChildRoles.First.Value) == null)
+                    {
+                        r.Cells[4].Value += ChildRoles.First.Value + " ";
+
+                    }
+                    ChildRoles.RemoveFirst();
+                }
+                while (DirectFatherRoles.Count != 0)
+                {
+                    r.Cells[1].Value += DirectFatherRoles.First.Value + " ";
+                    DirectFatherRoles.RemoveFirst();
+
+                }
+                while (DirectChildRoles.Count != 0)
+                {
+                    r.Cells[2].Value += DirectChildRoles.First.Value + " ";
+                    DirectChildRoles.RemoveFirst();
+                }
+
+                DirectRole.RemoveFirst();
+
+                this.View_RolesData.Rows.Add(r);
+            }
+        }
         private void Table_Selected(object sender, TabControlEventArgs e)
         {
             switch (e.TabPageIndex)
@@ -175,14 +229,13 @@ namespace RBAC
                 case 1:
                     {
                         Refresh_Permission();
-                        
-
-
                         break;
                     }
-
-
-
+                case 2:
+                    {
+                        refreshActivateRoles();
+                        break;
+                    }
 
                 default:
                     break;
@@ -195,5 +248,17 @@ namespace RBAC
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_Activate_Roles_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

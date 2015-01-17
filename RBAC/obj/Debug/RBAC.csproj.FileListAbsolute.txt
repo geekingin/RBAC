@@ -81,3 +81,20 @@ G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.Securi
 G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
 G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
 G:\academic work\认证与访问控制\源代码\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache
+C:\Users\GIN\Desktop\control\RBAC\RBAC\bin\Debug\RBAC.exe.config
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\Interop.ADODB.dll
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\Interop.ADOX.dll
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.csproj.ResolveComReference.cache
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.exe
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.pdb
+C:\Users\GIN\Desktop\control\RBAC\RBAC\bin\Debug\RBAC.exe
+C:\Users\GIN\Desktop\control\RBAC\RBAC\bin\Debug\RBAC.pdb
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.csprojResolveAssemblyReference.cache
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.Admin.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.CommonUser.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.Login.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.RH_View.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.Security_Officer.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.Properties.Resources.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.SubjectRegister.resources
+C:\Users\GIN\Desktop\control\RBAC\RBAC\obj\Debug\RBAC.csproj.GenerateResource.Cache

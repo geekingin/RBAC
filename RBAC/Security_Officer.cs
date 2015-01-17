@@ -485,7 +485,6 @@ namespace RBAC
         {
             LinkedList<string> LinkRole = new LinkedList<string>();
 
-
             OleDbConnection oleDB = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=dac.accdb");
             oleDB.Open();
             OleDbCommand cmd = new OleDbCommand();

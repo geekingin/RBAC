@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RH_View));
             this.panel7 = new System.Windows.Forms.Panel();
             this.listBox_RoleName = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -91,6 +92,7 @@
             this.Controls.Add(this.Btn_Refresh);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel7);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RH_View";
             this.Text = "RH_View";
             this.Load += new System.EventHandler(this.RH_View_Load);
